@@ -1,0 +1,82 @@
+.comment .comment-header{
+    border-bottom: .026667rem solid #ddd;
+    position: fixed;
+    top: 0
+}
+.comment .userInfo{
+    margin-top: 1.066667rem;
+    width: 100%;
+    height: 1.68rem;
+    display: flex;
+    align-items: center;
+}
+.comment .userInfo img{
+    width: .88rem;
+    height: .88rem;
+    margin-left: .4rem;
+    border-radius: 50%;
+    /* float: left; */
+}
+.comment .userInfo>div{
+    margin-left: .24rem;
+}
+.comment .userInfo>div>p:nth-of-type(2){
+    color: #999;
+    margin-top: .08rem;
+}
+.comment .bgImg{
+    width: 100%;
+    margin-bottom: .266667rem;
+}
+.comment .pro-des{
+    font-size: .346667rem;
+    line-height: .506667rem;
+    padding: .266667rem .4rem .346667rem .4rem;
+}
+.comment .mixin-show{
+    text-align: right;
+    padding: 0 .5rem .5rem 0
+}
+.comment .total-comment{
+    border-top: .026667rem solid #ddd;
+    padding:.5rem 0 .5rem .4rem;
+}
+.comment .to-pro{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:#f5f5f5;
+    z-index: 500;
+    display: flex;
+    height: 1.2rem;
+    box-sizing: border-box;
+}
+.comment .to-pro img{
+    width: 1.12rem;
+    height: 1.12rem;
+    float: left;
+    position: relative;
+    top: -.3rem;
+    right: -.1rem;
+}   
+.comment .pro-title{
+    width:5.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: .586667rem;
+    padding-left: .2rem;
+}
+.comment .pro-price{
+    padding-left: 1.5rem;
+}
+.comment .buy-btn{
+    width: 3.466667rem;
+    background-color: rgb(233, 59, 57);
+    color: white;
+    font-size: .4rem;
+    text-align: center;
+    line-height: 1.2rem;
+    height: 1.2rem;
+}
+

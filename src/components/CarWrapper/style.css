@@ -1,0 +1,21 @@
+body{
+    background-color: #F9F9F9;
+}
+.blank-header{
+    width: 100%;
+    height: 1.173333rem;
+    display: flex;
+    background-color: white;
+    height: 1.173333rem;
+}
+.go-back{
+    font-size: .426667rem;
+    width: 17.06667%;
+    line-height: 1.173333rem;
+}
+.car-title{
+    font-size: .48rem;
+    width: 65.86667%;
+    text-align: center;
+    line-height: 1.173333rem;
+}

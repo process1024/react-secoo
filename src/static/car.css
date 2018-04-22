@@ -1,0 +1,112 @@
+
+.car_list .discount span{
+    display: inline-block;
+    padding: .053333rem .133333rem;
+    color: white;
+    background-color: rgb(115, 115, 115);
+    margin-right: .266667rem;
+}
+.car_list .discount{
+    padding: .266667rem;
+    color: #ababab;
+    border-bottom: .026667rem dashed #ddd;
+}
+.car_list .intemInfo{
+    padding: .266667rem 0 .266667rem .266667rem;
+    display: flex;
+    border-bottom: .026667rem solid #ddd;
+    background-color: white;
+    
+}
+.intemInfo input{
+    position: relative;
+    top: .5rem;
+}
+.car_list .intemInfo img{
+    width: 1.6rem;
+    height: 1.813333rem;
+}
+.car_list .intemInfo .item-right p .right-title{
+    width: 4.946667rem !important;
+    height: 1.066667rem;
+    overflow: hidden;
+    line-height: .533333rem;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2 !important;
+}
+.item-right p{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.item-right .price{
+    text-align: right;
+    width: 2.666667rem;
+}
+.item-right .price span{
+    display: inline-block;
+    margin-top: .5rem;
+}
+.item-right .count {
+    color:rgb(171, 171, 171)
+}
+.item-right .count span:first-of-type{
+    width: 3.173333rem;
+    display: inline-block;
+    text-align: right;
+}
+.item-right .count span:nth-last-child(1){
+    width: 3.413333rem;
+    text-align: center;
+}
+.totle-prices{
+    padding: .266667rem .533333rem;
+    font-size: .373333rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.insurance{
+    padding: .266667rem .133333rem;
+    background-color: #EEEEEE;
+    color: #ababab;
+    text-align: center;
+}
+.insurance b{
+    color: #ababab;
+    font-size: .373333rem;
+}
+.pay-footer{
+    position: fixed;
+    bottom: 0;
+    height: .853333rem;
+    width: 100%;
+    padding: .133333rem;
+    line-height: .853333rem;
+    border-top: .026667rem solid #ddd;
+    background-color: white;
+}
+.pay-footer .to-pay{
+    display: inline-block;
+    color: white;
+    background-color: #f25513;
+    width: 2.533333rem;
+    height: .693333rem;
+    font-size: .373333rem;
+    line-height: .693333rem;
+    text-align: center;
+    position: absolute;
+    left:7rem;
+}
+.pay-footer input{
+    display: none; 
+    background-color: #FFF; 
+    border: 1px solid #C1CACA; 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05); 
+    padding: 9px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    position: relative; 
+    margin-right: 30px; 
+}

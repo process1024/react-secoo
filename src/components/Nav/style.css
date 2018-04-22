@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  .App{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .nav{
+    height: 1.386667rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    border-top: 1px solid #e2e2e2;
+    background-color: rgb(255, 255, 255);
+  }
+  .nav ul li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    height: 0.9733333rem;
+    padding: .24rem 0 0.146666rem 0;
+    text-align: center;
+    font-size:.32rem;
+    opacity: 0.45;
+    /* line-height: 44px; */
+    /* box-sizing: border-box */
+  }
+  .nav ul li div{
+      margin-bottom: 0.08rem;
+  }
+  .nav ul li img{
+      width: .533333rem;
+      height: .533333rem;
+  }
+  .nav ul li a{
+    color: rgb(26, 25, 30);
+  }
+  .active{
+      opacity: 1 !important;
+  }

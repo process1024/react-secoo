@@ -1,0 +1,66 @@
+.product .blank-header{
+    position: fixed;
+    top: 0;
+    opacity: .8
+}
+.product .swipe-pic{
+    margin-top: 1.2rem;
+}
+.product .header-right{
+    font-size: .666667rem;
+    text-align: right;
+    width: 8.293333rem;
+    text-indent: .5rem;
+    padding-right: .5rem;
+    line-height: 1.2rem;
+}
+.product .swipe-pic img{
+    width:100%;
+}
+.product .pro-name{
+    font-size: .373333rem;
+}
+.product .pro_pric{
+    font-size: .533333rem;
+}
+.product .pro-detail{
+    padding: .266667rem .266667rem .4rem .266667rem;
+    border-bottom: .026667rem solid #ddd;
+}
+.pro-size{
+    width: 9.466667rem;
+    padding: .266667rem;
+}
+.pro-size p{
+    font-size: .373333rem;
+    padding-bottom: .266667rem;
+}
+.pro-size li{
+    display: inline-block;
+    padding: .266667rem;
+    margin: 0 .4rem .266667rem 0;
+    background-color: rgb(236, 236, 236);
+}
+.pro-size img{
+    width: 1.066667rem;
+    height: 1.066667rem;
+    border: 1px solid black;
+}
+.pro-size .img-li{
+    padding: 0 !important;
+}
+.product .add-btn{
+    width: 100%;
+    font-size: .373333rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: .32rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+.product .active{
+    background-color: rgb(186, 160, 113);
+    color: white;
+}

@@ -1,0 +1,154 @@
+/* callApp */
+#newUserCallApp{
+    width: 100%;
+    height: 1.493333rem;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #f5f5f5;
+    z-index: 20;
+    background-color: #fff;
+}
+#newUserCallApp img{
+    width: 1.2rem;
+    height: auto;
+    margin:.133333rem 0 0 .346667rem;
+    float: left;
+    position: absolute;
+}
+#newUserCallApp h2 {
+    padding: 1.733333% 0 0.533333%;
+    font-size: .426667rem;
+    line-height: .6rem;
+    font-weight: normal;
+    margin: 0 0 0 19.066666%;
+}
+#newUserCallApp p{
+    margin: 0 0 0 19.066666%;
+    color: #666;
+}
+.downloadNow{
+    border: .026667rem solid black;
+    height: .72rem;
+    width: 1.866667rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: .373333rem;
+    line-height: .72rem;
+    margin: .4rem .346667rem 0 0;
+}
+
+
+/* banner */
+#home-category {
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    height: 7.333333rem;
+    overflow: hidden;
+    margin-top: 1.493333rem;
+}
+#home-category>div>div{
+    position: relative;
+}
+#home-category .carousel-item img {
+    width: 100%;
+    height: 7.333333rem;
+    position: absolute;
+}
+
+#home-category .index-container ul {
+    height: auto;
+    position: absolute;
+    bottom: .133333rem;
+    right: 42%;
+}
+
+#home-category .index-container li {
+    display: inline-block;
+    height: .16rem;
+    width: .16rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: .48;
+    margin: 0 .1rem;
+}
+
+#home-category .index-container li.selected {
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    position: relative;
+    top: .05rem;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/* List */
+.entrance ul{
+    height: 1.653333rem;
+    padding: .533333rem 0;
+}
+.entrance-li{
+    width: 18.93333%;
+    height: 1.653333rem;
+    text-align: center;
+}
+.entrance-li:first-of-type{
+    margin-left: .266667rem;
+}
+.entrance-li img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.box-img{
+    width: 100%;
+    position: relative;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+}
+.box15 div{
+    height: 5.466667rem;
+    margin-bottom: .266667rem;
+}
+.box16 div{
+    height: 3.333333rem;
+    margin-bottom: .266667rem;
+}
+.box17 div{
+    width: 92%;
+    height: 8rem;
+    margin: 0 .4rem .426667rem .4rem;
+}
+
+.listTitle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    margin: 1.04rem 0 0 .64rem;
+}
+.listTitle span{
+    font-size: .48rem;
+}
+.title{
+    text-align: center;
+    margin: 8% 0 4%;
+    font-size: .373333rem;
+}
+
+.block{
+    height: 1.7rem;
+}

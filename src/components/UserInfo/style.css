@@ -1,0 +1,131 @@
+/* Login header */
+.header-inner{
+    width: 100%;
+    height: 1.173333rem;
+    display: flex;
+    border-bottom: .026667rem solid #ddd;
+    line-height: 1.173333rem;
+}
+.header-inner .go-back{
+    width: 22.5333333%;
+    position: relative;
+    font-size: .48rem;
+    line-height: 1.173333rem;
+}
+.header-inner .go-back img{
+    width: .373333rem;
+    height: .373333rem;
+    position: absolute;
+    left: 15% !important;
+    top: 35% !important;
+}
+.header-inner .center-title{
+    width: 54.93333333%;
+    text-align: center;
+    font-size: .453333rem;
+}
+.header-inner .register{
+    width: 22.5333333%;
+    font-size: .373333rem;
+}
+.fa-power-off{
+    color: #999;
+    font-weight: normal;
+    /* float: right */
+    margin-right: .3rem;
+}
+.form-container{
+    width: 92%;
+    margin: 0 .4rem;
+}
+.login-logo{
+    margin: 0 3.786667rem 1.626667rem 3.786667rem;
+    padding-top: .666667rem;
+    text-align: center;
+    
+}
+.login-logo img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.form-container div input{
+    width: 100%;
+    border: none;
+    height: 1.68rem;
+    font-size: .506667rem;
+    border-bottom: .026667rem solid #ddd;
+}
+::-webkit-input-placeholder { /* WebKit browsers */  
+    color:    #A9A9A9;  
+}  
+.login-btn{
+    background-color: black;
+    color: white;
+    margin-top: .4rem;
+    text-align: center;
+    height: 1.2rem;
+    width: 100%;
+    line-height: 1.2rem;
+    font-size: .426667rem;
+}
+
+
+/* UserCenter */
+.user-list{
+    background-color: white;
+    border-top: .026667rem solid #ddd;
+    border-bottom: .026667rem solid #ddd;
+    margin-top: .586667rem;
+}
+.user-list>div{
+    height: 1.173333rem;
+    display: flex;
+    line-height: 1.173333rem;
+}
+.user-list>div>span{
+    width: 10%;
+    font-size:.666667rem;
+    text-align: right;
+}
+.user-list>div>p{
+    font-size: .426667rem;
+    border-bottom: .026667rem solid #ddd;
+    width: 85%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.no-bottom{
+    border-bottom: none !important;
+}
+.fa-chevron-right{
+    color: #999
+}
+.em-pic{
+    color: purple
+}
+
+
+footer ul{
+    width: 94.66667%;
+    padding: 0 .266667rem .266667rem .266667rem;
+    height: 2.32rem;
+}
+footer ul li{
+    width: 2.213333rem;
+    height: 2rem;
+    border: .026667rem solid #ddd;
+    margin: .266667rem .133333rem 0 0;
+    display: inline-block;
+    color: #797979;
+    text-align: center;
+    line-height: 2rem;
+    background-color: white
+}
+footer ul li:last-of-type{
+    margin-right: 0;
+}
+footer div{
+    text-align: center;
+    font-size: .373333rem;
+}
