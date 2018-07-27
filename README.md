@@ -1,1 +1,8 @@
-2017年手写的一个react小项目
+### How to use?
+
+```bash
+npm install or yr install
+
+npm run dev
+```
+
